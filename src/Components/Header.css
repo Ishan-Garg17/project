@@ -1,12 +1,9 @@
 .wrapper{
-    /* display: flex; */
-    /* justify-content: center;
-    align-items: center; */
     height: 55em;
-    
-
 }
 .content{
+    display: flex;
+    align-items: center;
   text-align: center;
   font-size: 4em;
   color: rgb(1, 1, 83);
@@ -17,6 +14,13 @@
   background-size: cover;
   background-position: center center;
   background-attachment: fixed;
+}
+.text{
+    margin: 0 auto;
+    width: 12em;
+    height: 6em;
+
+    
 }
 .heading1{
     margin-left: 272px;
